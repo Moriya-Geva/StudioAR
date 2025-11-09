@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Studio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|c:\\users\\user\\desktop\\studio\\service\\studio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|solutionrelative:service\\studio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|c:\\users\\user\\desktop\\studio\\studio.api\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|solutionrelative:studio.api\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|c:\\users\\user\\desktop\\studio\\studio.infrastructure\\repositories\\audiosamplerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|solutionrelative:studio.infrastructure\\repositories\\audiosamplerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|c:\\users\\user\\desktop\\studio\\studio.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|solutionrelative:studio.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|c:\\users\\user\\desktop\\studio\\studio.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|solutionrelative:studio.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|c:\\users\\user\\desktop\\studio\\studio.infrastructure\\studio.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4C143B7D-BE75-4F04-909C-9BCCCDD8E16C}|Studio.Infrastructure\\Studio.Infrastructure.csproj|solutionrelative:studio.infrastructure\\studio.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|c:\\users\\user\\desktop\\studio\\studio.api\\controllers\\audiosamplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|solutionrelative:studio.api\\controllers\\audiosamplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A7821C0-981E-48D9-A8B7-920B85B25D1B}|Studio.Core\\Studio.Core.csproj|c:\\users\\user\\desktop\\studio\\studio.core\\services\\audiosampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A7821C0-981E-48D9-A8B7-920B85B25D1B}|Studio.Core\\Studio.Core.csproj|solutionrelative:studio.core\\services\\audiosampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A7821C0-981E-48D9-A8B7-920B85B25D1B}|Studio.Core\\Studio.Core.csproj|c:\\users\\user\\desktop\\studio\\studio.core\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A7821C0-981E-48D9-A8B7-920B85B25D1B}|Studio.Core\\Studio.Core.csproj|solutionrelative:studio.core\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A7821C0-981E-48D9-A8B7-920B85B25D1B}|Studio.Core\\Studio.Core.csproj|c:\\users\\user\\desktop\\studio\\studio.core\\studio.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A7821C0-981E-48D9-A8B7-920B85B25D1B}|Studio.Core\\Studio.Core.csproj|solutionrelative:studio.core\\studio.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|c:\\users\\user\\desktop\\studio\\studio.api\\studio.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{61F272CC-DE49-4D63-AABF-FFA884D8CA93}|Studio.Api\\Studio.Api.csproj|solutionrelative:studio.api\\studio.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Studio.Core\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Studio.Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Studio.Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:35:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioSampleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\Repositories\\AudioSampleRepository.cs",
+              "RelativeDocumentMoniker": "Studio.Infrastructure\\Repositories\\AudioSampleRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\Repositories\\AudioSampleRepository.cs",
+              "RelativeToolTip": "Studio.Infrastructure\\Repositories\\AudioSampleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:23:14.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\service\\Studio.Api\\Program.cs",
+              "RelativeDocumentMoniker": "service\\Studio.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\service\\Studio.Api\\Program.cs",
+              "RelativeToolTip": "service\\Studio.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:14:19.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Studio.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\Studio.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Studio.Infrastructure\\Studio.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\Studio.Infrastructure.csproj",
+              "RelativeToolTip": "Studio.Infrastructure\\Studio.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-09T10:10:32.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Studio.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Studio.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:10:34.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Api\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Studio.Api\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Api\\MappingProfile.cs",
+              "RelativeToolTip": "Studio.Api\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:10:34.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AudioSampleController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Api\\Controllers\\AudioSampleController.cs",
+              "RelativeDocumentMoniker": "Studio.Api\\Controllers\\AudioSampleController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Api\\Controllers\\AudioSampleController.cs",
+              "RelativeToolTip": "Studio.Api\\Controllers\\AudioSampleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:24:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AudioSampleService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Services\\AudioSampleService.cs",
+              "RelativeDocumentMoniker": "Studio.Core\\Services\\AudioSampleService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Services\\AudioSampleService.cs",
+              "RelativeToolTip": "Studio.Core\\Services\\AudioSampleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:22:48.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Studio.Core\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Studio.Core\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:16:00.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Studio.Core",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Studio.Core.csproj",
+              "RelativeDocumentMoniker": "Studio.Core\\Studio.Core.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Studio.Core.csproj",
+              "RelativeToolTip": "Studio.Core\\Studio.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-09T10:15:25.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Studio.Api",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Api\\Studio.Api.csproj",
+              "RelativeDocumentMoniker": "Studio.Api\\Studio.Api.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Api\\Studio.Api.csproj",
+              "RelativeToolTip": "Studio.Api\\Studio.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-09T10:10:34.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "Studio.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Studio\\Studio.Core\\Class1.cs",
+              "RelativeToolTip": "Studio.Core\\Class1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:02:57.244Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
