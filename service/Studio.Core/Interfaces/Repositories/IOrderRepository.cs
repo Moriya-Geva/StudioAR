@@ -1,11 +1,15 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Studio.Core.Entities;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-
+    public interface IOrderRepository
+    {
+        Task<IEnumerable<Order>> GetAllAsync();
+        Task<Order> GetByIdAsync(int id);
+        Task AddAsync(Order order);
+        Task UpdateAsync(Order order);
+        Task DeleteAsync(int id);
+    }
 }

@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-    class IDeliverableFilesRepository
+    public interface IDeliverableFileRepository
     {
+        Task<IEnumerable<DeliverableFile>> GetAllAsync();
+        Task<DeliverableFile> GetByIdAsync(int id);
+        Task<IEnumerable<DeliverableFile>> GetByOrderIdAsync(int orderId);
+        Task AddAsync(DeliverableFile deliverableFile);
+        Task UpdateAsync(DeliverableFile deliverableFile);
+        Task DeleteAsync(int id);
     }
 }

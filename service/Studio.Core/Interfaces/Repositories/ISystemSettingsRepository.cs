@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-    class ISystemSettingsRepository
+    public interface ISystemSettingRepository
     {
+        Task<IEnumerable<SystemSetting>> GetAllAsync();
+        Task<SystemSetting> GetByIdAsync(int id);
+        Task<SystemSetting> GetByKeyAsync(string key);
+        Task AddAsync(SystemSetting setting);
+        Task UpdateAsync(SystemSetting setting);
+        Task DeleteAsync(int id);
     }
 }

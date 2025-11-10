@@ -1,12 +1,15 @@
-﻿using System;
+﻿using Studio.Core.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Services
+namespace Studio.Core.Interfaces
 {
-    class IContactService
+    public interface IContactMessageService
     {
+        Task<IEnumerable<ContactMessageDTO>> GetAllAsync();
+        Task<ContactMessageDTO> GetByIdAsync(int id);
+        Task AddAsync(ContactMessageDTO contactMessageDTO);
+        Task UpdateAsync(ContactMessageDTO contactMessageDTO);
+        Task DeleteAsync(int id);
     }
 }

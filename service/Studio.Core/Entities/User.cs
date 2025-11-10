@@ -13,13 +13,14 @@ namespace Studio.Core.Entities
 
         public int Id { get; set; }                
         public string UserName { get; set; }        
-        public string Email { get; set; }        
-        public byte[] PasswordHash { get; set; } 
-        public byte[] PasswordSalt { get; set; }    // מלח להצפנה
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string PasswordSalt { get; set; }    // מלח להצפנה
         public string UserRole { get; set; }        // Customer / Admin
         public bool IsActive { get; set; }          // האם המשתמש פעיל
         public DateTime? LastLoginAt { get; set; }  // מתי המשתמש התחבר לאחרונה
                                                     // קשרים
         public ICollection<Order> Orders { get; set; } // הזמנות של הלקוח
+
     }
 }

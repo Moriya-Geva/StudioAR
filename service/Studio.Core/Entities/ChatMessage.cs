@@ -20,6 +20,5 @@ namespace Studio.Core.Entities
 
         // קשרים
         public Order Order { get; set; }
-        public User Sender { get; set; }
     }
 }

@@ -12,8 +12,6 @@ namespace Studio.Core.Entities
     public class AudioSample
     {
         public int Id { get; set; }
-        public int? CategoryId { get; set; }         // יכול להיות קשור לקטגוריה
-        public int? SubCategoryId { get; set; }      // או לתת-קטגוריה
         public string FileName { get; set; }         // שם הקובץ המקורי
         public string FilePath { get; set; }         // נתיב אחסון
         public double Duration { get; set; }         // משך הדוגמה בשניות
@@ -21,6 +19,5 @@ namespace Studio.Core.Entities
 
         // קשרים
         public Category Category { get; set; }
-        public SubCategory SubCategory { get; set; }
     }
 }

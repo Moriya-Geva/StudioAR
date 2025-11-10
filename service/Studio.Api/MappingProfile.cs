@@ -11,7 +11,16 @@ namespace Studio.API.Mapping
         {
             CreateMap<Category, CategoryDTO>().ReverseMap();
             CreateMap<AudioSample, AudioSampleDTO>().ReverseMap();
-
+            CreateMap<ChatMessage, ChatMessageDTO>().ReverseMap();
+            CreateMap<ContactMessage, ContactMessageDTO>().ReverseMap();
+            CreateMap<DeliverableFile, DeliverableFileDTO>().ReverseMap();
+            CreateMap<FAQ, FAQDTO>().ReverseMap();
+            CreateMap<Order, OrderDTO>().ReverseMap();
+            CreateMap<OrderFile, OrderFileDTO>().ReverseMap();
+            CreateMap<OrderStatusHistory, OrderStatusHistoryDTO>().ReverseMap();
+            CreateMap<SubCategory, SubCategoryDTO>().ReverseMap();
+            CreateMap<SystemSetting, SystemSettingDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
         }
     }
 }

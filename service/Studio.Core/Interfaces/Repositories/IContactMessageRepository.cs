@@ -1,12 +1,15 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-    class IContactMessageRepository
+    public interface IContactMessageRepository
     {
+        Task<IEnumerable<ContactMessage>> GetAllAsync();
+        Task<ContactMessage> GetByIdAsync(int id);
+        Task AddAsync(ContactMessage contactMessage);
+        Task UpdateAsync(ContactMessage contactMessage);
+        Task DeleteAsync(int id);
     }
 }

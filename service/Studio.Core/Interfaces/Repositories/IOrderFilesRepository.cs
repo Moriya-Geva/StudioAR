@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-    class IOrderFilesRepository
+    public interface IOrderFileRepository
     {
+        Task<IEnumerable<OrderFile>> GetAllAsync();
+        Task<OrderFile> GetByIdAsync(int id);
+        Task<IEnumerable<OrderFile>> GetByOrderIdAsync(int orderId);
+        Task AddAsync(OrderFile file);
+        Task UpdateAsync(OrderFile file);
+        Task DeleteAsync(int id);
     }
 }

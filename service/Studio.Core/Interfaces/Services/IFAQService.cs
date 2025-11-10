@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Services
+namespace Studio.Core.Interfaces
 {
-    class IFAQService
+    public interface IFAQService
     {
+        Task<IEnumerable<FAQDTO>> GetAllAsync();
+        Task<FAQDTO> GetByIdAsync(int id);
+        Task<IEnumerable<FAQDTO>> GetByCategoryIdAsync(int categoryId);
+        Task AddAsync(FAQDTO dto);
+        Task UpdateAsync(FAQDTO dto);
+        Task DeleteAsync(int id);
     }
 }

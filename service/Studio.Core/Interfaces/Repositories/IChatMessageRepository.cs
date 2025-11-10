@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-    class IChatMessageRepository
+    public interface IChatMessageRepository
     {
+        Task<IEnumerable<ChatMessage>> GetAllAsync();
+        Task<ChatMessage> GetByIdAsync(int id);
+        Task<IEnumerable<ChatMessage>> GetByOrderIdAsync(int orderId);
+        Task AddAsync(ChatMessage chatMessage);
+        Task UpdateAsync(ChatMessage chatMessage);
+        Task DeleteAsync(int id);
     }
 }

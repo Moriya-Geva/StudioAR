@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Studio.Core.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Studio.Core.DTOs;
 
-namespace Studio.Core.Interfaces.Services
+namespace Studio.Core.Interfaces
 {
-           public interface IOrderService
+    public interface IOrderService
     {
-        }
- }
+        Task<IEnumerable<OrderDTO>> GetAllAsync();
+        Task<OrderDTO> GetByIdAsync(int id);
+        Task AddAsync(OrderDTO dto);
+        Task UpdateAsync(OrderDTO dto);
+        Task DeleteAsync(int id);
+    }
+}

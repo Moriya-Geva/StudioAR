@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Services
+namespace Studio.Core.Interfaces
 {
-    class IChatService
+    public interface IChatMessageService
     {
+        Task<IEnumerable<ChatMessageDTO>> GetAllAsync();
+        Task<ChatMessageDTO> GetByIdAsync(int id);
+        Task<IEnumerable<ChatMessageDTO>> GetByOrderIdAsync(int orderId);
+        Task AddAsync(ChatMessageDTO chatMessageDTO);
+        Task UpdateAsync(ChatMessageDTO chatMessageDTO);
+        Task DeleteAsync(int id);
     }
 }

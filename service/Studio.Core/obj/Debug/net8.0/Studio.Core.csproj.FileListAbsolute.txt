@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Studio\service\Studio.Core\bin\Debug\net8.0\Studio.Core.deps.json
+C:\Users\User\Desktop\Studio\service\Studio.Core\bin\Debug\net8.0\Studio.Core.dll
+C:\Users\User\Desktop\Studio\service\Studio.Core\bin\Debug\net8.0\Studio.Core.pdb
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.sourcelink.json
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.dll
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\refint\Studio.Core.dll
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\Studio.Core.pdb
+C:\Users\User\Desktop\Studio\service\Studio.Core\obj\Debug\net8.0\ref\Studio.Core.dll

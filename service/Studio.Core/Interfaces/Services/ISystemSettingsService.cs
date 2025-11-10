@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Services
+namespace Studio.Core.Interfaces
 {
-    interface ISystemSettingsService
+    public interface ISystemSettingService
     {
+        Task<IEnumerable<SystemSettingDTO>> GetAllAsync();
+        Task<SystemSettingDTO> GetByIdAsync(int id);
+        Task<SystemSettingDTO> GetByKeyAsync(string key);
+        Task AddAsync(SystemSettingDTO dto);
+        Task UpdateAsync(SystemSettingDTO dto);
+        Task DeleteAsync(int id);
     }
 }

@@ -20,7 +20,6 @@ namespace Studio.Infrastructure.Repositories
         {
             return await _context.AudioSamples
                 .Include(a => a.Category)
-                .Include(a => a.SubCategory)
                 .ToListAsync();
         }
 
@@ -28,7 +27,6 @@ namespace Studio.Infrastructure.Repositories
         {
             return await _context.AudioSamples
                 .Include(a => a.Category)
-                .Include(a => a.SubCategory)
                 .FirstOrDefaultAsync(a => a.Id == id);
         }
 

@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Repositories
+namespace Studio.Core.Interfaces
 {
-    class ISubCategoryRepository
+    public interface ISubCategoryRepository
     {
+        Task<IEnumerable<SubCategory>> GetAllAsync();
+        Task<SubCategory> GetByIdAsync(int id);
+        Task<IEnumerable<SubCategory>> GetByCategoryIdAsync(int categoryId);
+        Task AddAsync(SubCategory subCategory);
+        Task UpdateAsync(SubCategory subCategory);
+        Task DeleteAsync(int id);
     }
 }

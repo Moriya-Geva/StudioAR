@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Studio.Core.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Studio.Core.Interfaces.Services
+namespace Studio.Core.Interfaces
 {
-    class IUserService
+    public interface IUserService
     {
+        Task<IEnumerable<UserDTO>> GetAllAsync();
+        Task<UserDTO> GetByIdAsync(int id);
+        Task<UserDTO> GetByEmailAsync(string email);
+        Task AddAsync(UserDTO dto, string password);
+        Task UpdateAsync(UserDTO dto);
+        Task DeleteAsync(int id);
     }
 }

@@ -17,5 +17,6 @@ namespace Studio.Core.DTOs
         public bool IsReadByAdmin { get; set; }
         public bool IsReadByCustomer { get; set; }
         public DateTime CreatedAt { get; set; }
+
     }
 }
