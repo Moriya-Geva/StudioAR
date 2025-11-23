@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yDjyA94vDJIBF+9SCzdUz2cn/dL2XgJ58fdR+9QRN70=",
+  "Source": "Studio.Api",
+  "BasePath": "_content/Studio.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

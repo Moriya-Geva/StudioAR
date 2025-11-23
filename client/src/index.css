@@ -1,0 +1,48 @@
+/* כלליים */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  direction: rtl; /* עברית */
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* תוכן הדף */
+.page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1976d2; /* MUI Primary */
+  color: white;
+}
+
+/* Buttons */
+.navbar button {
+  color: white;
+  margin-left: 10px;
+}
+
+/* טבלאות */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #1976d2;
+  color: white;
+}
